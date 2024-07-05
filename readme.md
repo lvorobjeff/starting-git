@@ -32,8 +32,8 @@ git log
 
 # 5. Начнем работать с GitHub, а так же генерируем SSH-ключ
 Много буков, см. курсы на Яндекс.Практикум
-1. [Ссылка 1](https://practicum.yandex.ru/trainer/git-basics/lesson/f7e00d04-1da2-46b4-b13d-b0bf751caf88/)
-2. [Ссылка 2](https://practicum.yandex.ru/trainer/git-basics/lesson/42435683-0922-4231-bfb4-d7d32d61f50a/)
+1. [GitHib](https://practicum.yandex.ru/trainer/git-basics/lesson/f7e00d04-1da2-46b4-b13d-b0bf751caf88/)
+2. [SSH](https://practicum.yandex.ru/trainer/git-basics/lesson/42435683-0922-4231-bfb4-d7d32d61f50a/)
 
 
 # 6. Создаём удалённый репозиторий
@@ -45,9 +45,10 @@ git log
 ```bash
 git remote add origin git@github.com:lvorobjeff/starting-git.git
 git branch -M main
-git push -u origin main
+git push -u origin main		# опубликовать все локальные коммиты
 ```
 4. Убедиться, что репозитории связаны
 ```bash
 git remote -v
 ```
+
